@@ -313,9 +313,6 @@ footer {
 .contenedor-facebook img {
     width: 32px;
     height: 32px;
-    background-color: #FFF;
-    padding: 3px;
-    border-radius: 10px;
 }
 .contenedor-instagram {
     display: flex;
@@ -334,9 +331,6 @@ footer {
 .contenedor-instagram img {
     width: 32px;
     height: 32px;
-    background-color: #FFF;
-    padding: 3px;
-    border-radius: 10px;
 }
 
 .footer-contenedor .derechos {
