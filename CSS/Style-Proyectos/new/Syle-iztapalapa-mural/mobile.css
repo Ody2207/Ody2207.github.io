@@ -175,6 +175,10 @@ main {
     text-align: justify;
 }
 
+.principal-title {
+    width: 100%;
+}
+
 .seccion-contenido {
     height: auto;
 }
@@ -230,10 +234,6 @@ main {
 
 .img-2 {
     background-image: url(../../../../Img/img-iztapalapa-mural/img2.jpeg);
-}
-
-.principal-title {
-    width: 100%;
 }
 
 .Contenedor-videos {
