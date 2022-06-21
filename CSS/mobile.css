@@ -141,6 +141,17 @@ header img {
     cursor: pointer;
 }
 
+.optionV2 {
+    width: 120px;
+    padding-left: 16px;
+}
+
+.optionV2 h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
 
 a.selected{
     color: #fff;
