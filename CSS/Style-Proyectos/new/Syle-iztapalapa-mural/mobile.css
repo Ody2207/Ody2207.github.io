@@ -1,3 +1,4 @@
+
 :root {
     --color-base: #A40000;
     --colore-fondo: #CC1515;
@@ -166,3 +167,157 @@ a.selected{
 }
 
 /* -----------------------------------------Termina el menu responsive mobile---------------------------- */
+
+/* main */
+
+main {
+    padding: 20px;
+    text-align: justify;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.Contenido-principal {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.contenido-bloque-1 p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    padding: 10px 0;
+}
+
+.contenido {
+    padding-bottom: 30px;
+}
+
+.contenido-bloque-2 p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    padding: 10px 0;
+}
+
+.contenido-bloque-2 h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-1 {
+    background-image: url(../../../../Img/img-iztapalapa-mural/img1.jpeg);
+}
+
+.img-2 {
+    background-image: url(../../../../Img/img-iztapalapa-mural/img2.jpeg);
+}
+
+.principal-title {
+    width: 100%;
+    height: 150px;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: var(--fondo-secundario);
+    padding: 20px;
+}
+
+.footer-contenedor {
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+
+.contenedor-facebook {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contenedor-facebook a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contenedor-facebook a p {
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+.contenedor-facebook img {
+    width: 32px;
+    height: 32px;
+}
+.contenedor-instagram {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contenedor-instagram a p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 10px;
+
+}
+
+.contenedor-instagram img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-contenedor .derechos {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 760px){
+    .body_move{
+        margin-left: 0px;
+    }
+
+    .menu__side_move{
+        width: 80px;
+        left: -80px;
+    }
+
+
+    /* Fucion ventana */
+
+    .name__page i{
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .name__page {
+        padding: 20px 29px;
+    }
+
+    .options__menu {
+        font-size: 15px;
+    }
+}
