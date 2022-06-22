@@ -124,12 +124,8 @@ header img {
     top: 80px;
 }
 
-.menu-box {
-    padding-bottom: 20px;
-}
-
 .options__menu a{
-    color: #ffffffb2;
+    color: #ffffff;
     cursor: default;
     display: block;
     position: relative;
@@ -166,7 +162,7 @@ a.selected{
     content: '';
     width: 3px;
     height: 80%;
-    background: white;
+    background: rgb(255, 254, 254);
     position: absolute;
     top: 10%;
     left: -20px;
@@ -213,7 +209,7 @@ a.selected{
 }
 
 .nav__link--inside:hover{
-    background: #F6F8FA;
+    background: #ffffff;
 }
 
 .list{
