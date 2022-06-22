@@ -41,12 +41,12 @@ window.addEventListener("resize", function(){
 
 // Funciones para hacerla más dinamico el menu 
 
-let listElements = document.querySelectorAll('.hola');
+let listElements = document.querySelectorAll('.funcion');
 
 listElements.forEach(listElement => {
     listElement.addEventListener('click', ()=>{
         
-        listElement.classList.toggle('arrow');
+        listElement.classList.toggle('flecha');
 
         let height = 0;
         let menu = listElement.nextElementSibling;
