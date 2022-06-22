@@ -124,6 +124,10 @@ header img {
     top: 80px;
 }
 
+.menu-box {
+    padding-bottom: 20px;
+}
+
 .options__menu a{
     color: #ffffffb2;
     cursor: default;
@@ -137,7 +141,7 @@ header img {
 }
 
 .options__menu .option{
-    padding: 20px 0px;
+    padding: 20px 0px 5px 0;
     display: flex;
     align-items: center;
     position: relative;
@@ -153,18 +157,6 @@ header img {
     font-weight: 300;
     cursor: pointer;
 }
-
-.optionV2 {
-    width: 120px;
-    padding-left: 16px;
-}
-
-.optionV2 h3 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding-bottom: 20px;
-}
-
 
 a.selected{
     color: #fff;
@@ -182,7 +174,6 @@ a.selected{
 
 .list__item {
     list-style: none;
-    padding-left: 15px;
 }
 
 .list__item--click {
@@ -209,13 +200,11 @@ a.selected{
 .list__option {
     width: 80%;
     margin-left: auto;
-    border-left: 2px solid #303440;
+    border-left: 2px solid #ffffff;
     list-style: none;
     transition: height .4s;
     height: 0;
 }
-
-
 
 .nav__link--inside{
     border-radius: 6px ;
@@ -247,6 +236,12 @@ a.selected{
 .flecha .list__arrow{
     transform: rotate(90deg);
 } 
+
+.list-name {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 0 0 10px 10px;
+}
 
 /* ----fin de estilos de los links---- */
 
