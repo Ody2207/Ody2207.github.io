@@ -183,3 +183,77 @@ header img {
     grid-template-rows: repeat(3, 250px);
     gap: 10px;
 } 
+
+
+
+
+.list__item {
+    list-style: none;
+}
+
+.list__item--click {
+    cursor: pointer;
+}
+
+.list-boton {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flecha .list-flecha {
+    transform: rotate(90deg);
+}
+
+.list-flecha {
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list__option {
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #ffffff;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+
+.nav__link--inside{
+    border-radius: 6px ;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.nav__link--inside:hover{
+    background: #ffffff;
+}
+
+.list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #fff;
+}
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.flecha .list__arrow{
+    transform: rotate(90deg);
+} 
+
+.list-name {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 0 0 10px 10px;
+}
