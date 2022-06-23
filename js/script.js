@@ -1,5 +1,6 @@
 //Ejecutar función en el evento click
 document.getElementById("btn_open").addEventListener("click", open_close_menu);
+document.getElementById("btn_close").addEventListener("click", open_close_menu);
 
 //Declaramos variables
 var side_menu = document.getElementById("menu_side");
@@ -41,12 +42,12 @@ window.addEventListener("resize", function(){
 
 // Funciones para hacerla más dinamico el menu 
 
-let listElements = document.querySelectorAll('.hola');
+let listElements = document.querySelectorAll('.funcion');
 
 listElements.forEach(listElement => {
     listElement.addEventListener('click', ()=>{
         
-        listElement.classList.toggle('arrow');
+        listElement.classList.toggle('flecha');
 
         let height = 0;
         let menu = listElement.nextElementSibling;
