@@ -135,7 +135,7 @@ header img {
 }
 
 .options__menu{
-    padding: 15px 20px;
+    padding: 0px 20px;
     position: absolute;
     top: 80px;
 }
@@ -146,6 +146,7 @@ header img {
     display: block;
     position: relative;
     transition: color 300ms;
+    font-weight: 300;
 }
 
 .options__menu a:hover{
@@ -168,6 +169,10 @@ header img {
 .options__menu .option h4{
     font-weight: 300;
     cursor: pointer;
+}
+
+.contenedor__list--menu {
+    padding-bottom: 30px;
 }
 
 a.selected{
@@ -210,7 +215,7 @@ a.selected{
 
 .list__option {
     width: 80%;
-    margin-left: auto;
+    margin: 5px 0 0 10px;
     border-left: 2px solid #ffffff;
     list-style: none;
     transition: height .4s;
@@ -251,7 +256,8 @@ a.selected{
 .list-name {
     font-size: 1.5rem;
     font-weight: 300;
-    padding: 0 0 10px 10px;
+    padding: 10px 0 10px 20px;
+    text-align: left;
 }
 
 /* ----fin de estilos de los links---- */
