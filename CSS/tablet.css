@@ -64,7 +64,7 @@ header{
     padding: 20px 30px;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: -50px;
 }
 
 .name__page i{
@@ -73,9 +73,10 @@ header{
 }
 
 .options__menu{
-    padding: 20px 30px;
+    padding: 0px 35px 0 0;
     position: absolute;
-    top: 80px;
+    top: 30px;
+    width: 235px;
 }
 
 .options__menu a{
@@ -123,10 +124,17 @@ a.selected{
 }
 
 .list-name {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 12px 0 12px 10px;
 }
+
 .list-boton {
     margin: 0 60px;
+}
+
+.contenedor__menu--principal {
+    padding-bottom: 60px;
 }
 
 /*Clases para usar en JavaScript*/
@@ -251,9 +259,3 @@ header img {
 .flecha .list__arrow{
     transform: rotate(90deg);
 } 
-
-.list-name {
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding: 0 0 10px 10px;
-}
