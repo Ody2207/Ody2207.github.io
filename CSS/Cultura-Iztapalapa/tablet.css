@@ -222,7 +222,14 @@ header img {
     transform: rotate(90deg);
 } 
 
+header img {
+    width: 30%;
+    margin-left: 10px;
+}
 /* --------------------Fin del reinicio--------------------- */
 
 
-
+.contenedor-info {
+    width: 50%;
+    margin: 0 auto;
+}

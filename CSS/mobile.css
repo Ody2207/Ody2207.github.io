@@ -277,6 +277,10 @@ a.selected{
 
 /* --------------main-------------- */
 
+.inicio {
+    text-decoration: line-through;
+}
+
 .main-presentacion {
     padding: 20px;
 }

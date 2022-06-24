@@ -1,0 +1,21 @@
+.contenedor-info {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contenedor-title {
+    font-size: 4rem;
+}
+
+.contenedor-info p {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+}
+
+.contenedor-info li {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    margin-bottom: 10px;
+}

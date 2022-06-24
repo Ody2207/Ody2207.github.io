@@ -283,7 +283,65 @@ a.selected{
 
 
 
+/* footer */
 
+footer {
+    background-color: var(--fondo-secundario);
+    padding: 20px;
+}
+
+.footer-contenedor {
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+
+.contenedor-facebook {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contenedor-facebook a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contenedor-facebook a p {
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+.contenedor-facebook img {
+    width: 32px;
+    height: 32px;
+}
+.contenedor-instagram {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contenedor-instagram a p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 10px;
+
+}
+
+.contenedor-instagram img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-contenedor .derechos {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
 
 @media screen and (max-width: 760px){
     .body_move{
