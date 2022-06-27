@@ -309,6 +309,39 @@ a.selected{
     margin-bottom: 10px;
 }
 
+/* Directorio */
+
+.conenedor-Directorio h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.conenedor-Directorio {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+.conenedor-Directorio ul {
+    padding: 0 20px 5px 20px;
+}
+
+.conenedor-Directorio li {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+
+.directorio--divicion {
+    width: 80%;
+    height: 3px;
+    text-align: center;
+    background-color: #1e263d;
+    margin: 20px auto;
+}
+
 /* footer */
 
 footer {
