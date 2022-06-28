@@ -152,55 +152,10 @@ a.selected{
     gap: 10px;
 }
 
-.list-link--Cultura{
-    font-weight: 100;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.list-link--Cultura:hover {
-    color: #fff;
-}
-/* --------------------Fin del reinicio--------------------- */
-
-
-
 header img {
     width: 12%;
     margin-left: 10px;
 }
-
-.main-presentacion--titulo {
-    font-size: 5rem;
-}
-
-.main-presentacion--sub-titulo {
-    font-size: 2.6rem;;
-} 
-
-
-/* mural */
-.main-segunda-seccion{
-    padding:  50px 70px;
-}
-
-
-.seccion-mural {
-    grid-template-columns: minmax(100px, 1fr)  minmax(100px, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.main-tercera-seccion {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: minmax(100px, 1fr)  minmax(100px, 1fr);
-    grid-template-rows: repeat(3, 250px);
-    gap: 10px;
-} 
-
-
-
 
 .list__item {
     list-style: none;
@@ -266,3 +221,8 @@ header img {
 .flecha .list__arrow{
     transform: rotate(90deg);
 } 
+
+/* --------------------Fin del reinicio--------------------- */
+
+
+

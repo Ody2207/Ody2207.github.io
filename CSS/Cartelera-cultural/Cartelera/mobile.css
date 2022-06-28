@@ -228,6 +228,10 @@ a.selected{
     text-align: left;
 }
 
+.list-link--Cultura{
+    font-weight: 100;
+}
+
 .nav__link--inside:hover{
     background: #ffffff;
 }
@@ -260,20 +264,6 @@ a.selected{
     text-align: left;
 }
 
-.boton-decoracion a {
-    text-decoration: line-through;
-}
-
-.list-link--Cultura{
-    font-weight: 100;
-    text-decoration: line-through;  
-}
-
-.list-link--Cultura:hover {
-    color: #fff;
-}
-
-
 /* ----fin de estilos de los links---- */
 
 
@@ -291,113 +281,17 @@ a.selected{
 
 /* --------------main-------------- */
 
-.contenedor-info {
-    padding: 20px;
-    text-align: justify;
-}
-
-.contenedor-title {
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 2.5rem;
-}
-
-.contenedor-info p {
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    margin-bottom: 20px;
-}
-.contenedor-info ul {
-    padding: 0 20px 0px 20px;
-}
-
-.contenedor-info li {
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    margin-bottom: 10px;
-}
-
-/* Directorio */
-
-.conenedor-Directorio h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.conenedor-Directorio {
-    width: 100%;
-    padding: 20px;
-    text-align: left;
-}
-
-.conenedor-Directorio ul {
-    text-align: center;
-    list-style: none;
-    padding: 0 20px 5px 20px;
-}
-
-.conenedor-Directorio li {
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 2rem;
-    margin-bottom: 10px;
-}
-
-.directorio--divicion {
-    width: 80%;
-    height: 3px;
-    text-align: center;
-    background-color: #1e263d;
-    margin: 20px auto;
-}
 
 
-/* formulario */
-.contenedor-formulario {
-    padding: 20px;
-}
-
-.contenedor-form__title {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.contenedor-contacto {
-    width: 100%;
+.contenedor-imagenes {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(4, 50px);
-    grid-template-areas: 
-        "nombre apellido"
-        "email email"
-        "msj msj"
-        "msj msj";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(21, 200px);
+    padding: 20px;
 }
 
-.input-nombre {
-    grid-area: nombre;
-}
-
-.input-apellido {
-    grid-area: apellido;
-}
-
-.input-email {
-    grid-area: email;
-}
-
-.input-msj {
-    grid-area: msj;
-}
-
-.contenedor-contacto button {
-    width: 80px;
-   height: 50px;
-   background-color: #1e263d;
+.item img{
+    width: 100%;
 }
 
 
@@ -406,7 +300,6 @@ a.selected{
 footer {
     background-color: var(--fondo-secundario);
     padding: 20px;
-    align-content: end;
 }
 
 .footer-contenedor {
@@ -460,14 +353,7 @@ footer {
     font-weight: 500;
     color: #fff;
     text-align: center;
-
 }
-
-.contenedor-contacto input{
-    border: 1px solid black;
-    
-}
-
 
 
 @media screen and (max-width: 760px){

@@ -8,14 +8,42 @@
 }
 
 .contenedor-info p {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     line-height: 3.5rem;
 }
 
 .contenedor-info li {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     line-height: 3.5rem;
     margin-bottom: 10px;
+}
+
+/* directorio */
+
+.conenedor-Directorio h2 {
+    font-size: 4rem;
+}
+
+.conenedor-Directorio li {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+/* Contacto */
+
+.contenedor-form__title {
+    font-size: 4rem;
+}
+
+.contenedor-contacto {
+    justify-content: center;
+    font-size: 2.5rem;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: repeat(4, 100px);
+}
+
+.contenedor-contacto input {
+    font-size: 2.5rem;
 }

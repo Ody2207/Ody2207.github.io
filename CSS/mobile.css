@@ -228,6 +228,10 @@ a.selected{
     text-align: left;
 }
 
+.list-link--Cultura{
+    font-weight: 100;
+}
+
 .nav__link--inside:hover{
     background: #ffffff;
 }
@@ -356,7 +360,7 @@ a.selected{
 /* ------------gird-videos---------- */
 
 .main-tercera-seccion {
-    padding: 20px;
+    padding: 30px;
     display: grid;
     grid-template-columns: minmax(100px, 1fr);
     grid-template-rows: repeat(6, 250px);
