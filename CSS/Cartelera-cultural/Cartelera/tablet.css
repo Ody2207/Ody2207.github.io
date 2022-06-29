@@ -224,5 +224,35 @@ header img {
 
 /* --------------------Fin del reinicio--------------------- */
 
+.Luna img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.contenedor-cartelera__title {
+    font-size: 4rem;
+}
+
+.contenedor-cartelera__title span {
+    padding-left: 150px;
+}
+
+/* contenedores secciones */
+
+.contenedor-imagenes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    padding: 20px;
+    gap: 40px;
+}
+
+.sub-contenedor__parrafo {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
 
 

@@ -280,17 +280,79 @@ a.selected{
 /* -----------------------------------------Termina el menu responsive mobile---------------------------- */
 
 /* --------------main-------------- */
+main {
+    background: linear-gradient( #4C3A51, #E7AB79);
+}
 
+.Luna {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+
+.Luna img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.contenedor-cartelera__title {
+    font-size: 2rem;
+    justify-content: center;
+    color: #fff;
+}
+
+.contenedor-cartelera__title span {
+    padding-left: 80px;
+}
 
 
 .contenedor-imagenes {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(21, 200px);
+    grid-template-rows: repeat(12, auto);
     padding: 20px;
+    row-gap: 40px;
 }
 
 .item img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sub-contenedor__parrafo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    place-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sub-contenedor__cartelera-botton {
+
+    justify-items: center;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+.item-color__1 {
+    background-color: #B25068;
+}
+
+.item-color__2 {
+    background-color: #774360;
+}
+
+.item-color__3 {
+    background-color: #4C3A51;
+}
+
+.Img-desierto img{
     width: 100%;
 }
 
