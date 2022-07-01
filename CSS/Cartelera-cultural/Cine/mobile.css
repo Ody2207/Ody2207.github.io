@@ -160,33 +160,8 @@ header img {
     position: relative;
 }
 
-.options__menu .option i{
-    width: 20px;
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.options__menu .option h4{
-    font-weight: 300;
-    cursor: pointer;
-}
-
 .contenedor__list--menu {
     padding-bottom: 30px;
-}
-
-a.selected{
-    color: #fff;
-}
-
-.selected:before{
-    content: '';
-    width: 3px;
-    height: 80%;
-    background: rgb(255, 254, 254);
-    position: absolute;
-    top: 10%;
-    left: -20px;
 }
 
 .list__item {
@@ -281,7 +256,107 @@ a.selected{
 
 /* --------------main-------------- */
 
+main {
+    padding: 20px;
+}
 
+.contenedor-pelicula {
+    padding: 20px;
+    background-color: rgb(237, 237, 237);
+}
+
+.contenedor-pelicula--img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* -------- */
+
+.contenedor-pelicula--info .option{
+    padding: 20px 0px 5px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.contenedor-pelicula--info {
+    padding-bottom: 30px;
+}
+
+.info__item {
+    list-style: none;
+}
+
+.info__item--click {
+    cursor: pointer;
+}
+
+.info-boton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+
+.flecha .info-flecha {
+    transform: rotate(90deg);
+}
+
+.info-flecha {
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.info__option {
+    width: 80%;
+    margin: 5px 0 0 10px;
+    border-left: 2px solid #ffffff;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+
+.nav__link--inside{
+    border-radius: 6px ;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.info-link--Cultura{
+    font-weight: 100;
+}
+
+.nav__link--inside:hover{
+    background: #ffffff;
+}
+
+.list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #fff;
+}
+
+.info__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.flecha .list__arrow{
+    transform: rotate(90deg);
+} 
+
+.list-name--cine {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 10px 0 10px 20px;
+    text-align: left;
+}
 
 /* footer */
 
