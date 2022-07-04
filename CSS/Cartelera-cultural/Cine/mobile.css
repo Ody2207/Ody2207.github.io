@@ -262,7 +262,16 @@ main {
 
 .contenedor-pelicula {
     padding: 20px;
-    background-color: rgb(237, 237, 237);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    border: 1px solid #C5C5C5;
+}
+
+.pelicula--title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .contenedor-pelicula--img img {
@@ -272,6 +281,13 @@ main {
 
 /* -------- */
 
+.info-link {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+}
+
 .contenedor-pelicula--info .option{
     padding: 20px 0px 5px 0;
     display: flex;
@@ -279,9 +295,13 @@ main {
     position: relative;
 }
 
-.contenedor-pelicula--info {
-    padding-bottom: 30px;
+.Divicion {
+    width: 90%;
+    height: 2px;
+    background-color: #C5C5C5;
+    margin: 20px auto;
 }
+
 
 .info__item {
     list-style: none;
@@ -347,16 +367,37 @@ main {
     overflow: hidden;
 }
 
-.flecha .list__arrow{
+.info-flecha .list__arrow{
     transform: rotate(90deg);
 } 
 
-.list-name--cine {
+.info-name--cine {
     font-size: 1.5rem;
     font-weight: 300;
     padding: 10px 0 10px 20px;
     text-align: left;
 }
+
+.contenedor-info {
+    display: grid;
+    width: 95%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 50px);
+    place-items: center;
+    gap: 5px;
+}
+
+.seccion {
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2px solid #A60000;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
 
 /* footer */
 
@@ -417,7 +458,6 @@ footer {
     color: #fff;
     text-align: center;
 }
-
 
 @media screen and (max-width: 760px){
     .body_move{
