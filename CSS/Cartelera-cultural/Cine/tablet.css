@@ -257,3 +257,34 @@ header img {
 .Img-desierto img{
     padding: 0 30%;
 }
+
+.contenedor-pelicula {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px auto   ;
+    grid-template-areas: 
+    'img title'
+    'img info';
+}
+
+.pelicula--title {
+    grid-area: title;
+    text-align: left;
+    padding-left: 20px;
+}
+.contenedor-pelicula--img {
+    grid-area: img;
+}
+
+.contenedor-informacion {
+    grid-area: info;
+}
+
+.info-boton {
+    margin: 0 0 0 20px ;
+}
+
+.info-flecha {
+    margin: 0;
+}
+
